@@ -6,6 +6,21 @@
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gond/)
 [![Discord](https://img.shields.io/discord/768594524158427167?label=discord%20chat&amp;color=5865F2)](https://discord.gg/Fm8Pwmy)
 [![CI Test](https://github.com/inoas/gleam-gond/actions/workflows/test.yml/badge.svg?branch=main&amp;event=push)](https://github.com/inoas/gleam-gond/actions/workflows/test.yml)
+
+<br>
+<br>
+
+<p align="center">
+  <i>
+    Think of a [gondola lift](https://en.wikipedia.org/wiki/Gondola_lift) ride, where you can hop off at different stations.
+  </i>
+</p>
+
+<br>
+<br>
+
+## Installation
+
 ```sh
 gleam add gond@1
 ```
@@ -25,7 +40,7 @@ pub fn example() {
     branches: [
       when(fn() { int.random(3) == 1 }) |> run(fn() { "Heads!" }),
       where(int.random(3) == 2) |> run(fn() { "Tails!" }),
-      when(fn() { True }) |> return("This always when!"),
+      when(fn() { True }) |> return("This always occurs!"),
       where(False) |> return("This is never the fact!"),
     ],
     default: fn() { "Lost the coin?" },
