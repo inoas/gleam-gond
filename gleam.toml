@@ -1,6 +1,6 @@
 name = "gond"
 version = "1.0.0"
-description = "🔠 Multi-branch conditional expressions for Gleam"
+description = "🔠 cond like multi-branch conditional expressions for Gleam"
 licences = ["MPL-2.0"]
 repository = { type = "github", user = "inoas", repo = "gleam-gond" }
 # links = [{ title = "Website", href = "" }]
