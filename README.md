@@ -1,4 +1,4 @@
-# Gond 🔠: `cond` 🔠 for Gleam
+# Gond 🔠: `cond` for Gleam
 
 [![Package <a href="https://github.com/inoas/gleam-gond/releases"><img src="https://img.shields.io/github/release/inoas/gleam-gond" alt="GitHub release"></a> Version](https://img.shields.io/hexpm/v/given)](https://hex.pm/packages/given)
 [![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)](https://www.erlang.org/)
