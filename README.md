@@ -6,10 +6,6 @@
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gond/)
 [![Discord](https://img.shields.io/discord/768594524158427167?label=discord%20chat&amp;color=5865F2)](https://discord.gg/Fm8Pwmy)
 [![CI Test](https://github.com/inoas/gleam-gond/actions/workflows/test.yml/badge.svg?branch=main&amp;event=push)](https://github.com/inoas/gleam-gond/actions/workflows/test.yml)
-
-[![Package Version](https://img.shields.io/hexpm/v/gond)](https://hex.pm/packages/gond)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gond/)
-
 ```sh
 gleam add gond@1
 ```
