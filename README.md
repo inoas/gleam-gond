@@ -12,7 +12,7 @@
 
 <p align="center">
   <i>
-    Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift</a> ride, where you can hop off at any stations.
+    Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift</a> ride, where you can hop off at any station.
   </i>
 </p>
 
