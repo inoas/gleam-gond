@@ -21,8 +21,8 @@ import gond.{
 }
 
 pub fn example() {
-  cond(branches:
-    [
+  cond(
+    branches: [
       when(fn() { int.random(3) == 1 }) |> run(fn() { "Heads!" }),
       where(int.random(3) == 2) |> run(fn() { "Tails!" }),
       when(fn() { True }) |> return("This always when!"),
