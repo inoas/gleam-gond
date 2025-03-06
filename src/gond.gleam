@@ -3,13 +3,14 @@
 
 import gleam/list
 
-/// Represents a condition that can be evaluated lazily or eagerly,
-/// or a mere fact where the consequence is already known.
+/// Represents a branch of a conditional expressions.
 ///
 pub opaque type Branch(a) {
   Branch(condition: Condition, consequence: Consequence(a))
 }
 
+/// Represents a condition that can be evaluated lazily or eagerly,
+///
 pub opaque type Condition {
   // AndCondition
   // OrCondition
@@ -19,6 +20,8 @@ pub opaque type Condition {
   EagerCondition(condition: Bool)
 }
 
+/// Represents a condition that can be evaluated lazily or eagerly,
+///
 pub opaque type Consequence(a) {
   LazyConsequence(consequence_fun: fn() -> a)
   EagerConsequence(consequence: a)
