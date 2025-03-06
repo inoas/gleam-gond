@@ -1,3 +1,6 @@
+//// 🔠 Multi-branch conditional expressions for Gleam
+////
+
 import gleam/list
 
 /// Represents a condition that can be evaluated lazily or eagerly,
@@ -21,6 +24,11 @@ pub opaque type Consequence(a) {
   EagerConsequence(consequence: a)
 }
 
+/// Executes a list of branches and returns the consequence of the first branch
+/// that evaluates to true.
+///
+/// If no branch evaluates to true, the default alternative function is executed.
+///
 pub fn cond(
   branches branches: List(Branch(a)),
   default alternative_fun: fn() -> a,
@@ -45,14 +53,21 @@ pub fn cond(
   )()
 }
 
+/// Creates a condition that evaluates to true if the given function returns
+/// true.
+///
 pub fn when(given condition_fun: fn() -> Bool) -> Condition {
   LazyCondition(condition_fun:)
 }
 
+/// Creates a condition that holds a literal boolean value.
+///
 pub fn where(given condition: Bool) -> Condition {
   EagerCondition(condition:)
 }
 
+/// Sets a consequence to run if a previous condition evaludated to true.
+///
 pub fn run(
   on condition: Condition,
   consequence consequence_fun: fn() -> a,
@@ -60,6 +75,9 @@ pub fn run(
   Branch(condition:, consequence: LazyConsequence(consequence_fun))
 }
 
+/// Sets a literal consequence to return if a previous condition evaludated to
+/// true.
+///
 pub fn return(on condition: Condition, consequence consequence: a) -> Branch(a) {
   Branch(condition:, consequence: EagerConsequence(consequence))
 }
