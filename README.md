@@ -17,7 +17,6 @@
 </p>
 
 <br>
-<br>
 
 ## Installation
 
