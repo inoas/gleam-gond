@@ -65,11 +65,11 @@ pub fn when(given condition_fun: fn() -> Bool) -> Condition {
 
 /// Creates a condition that holds a literal boolean value.
 ///
-pub fn where(given condition: Bool) -> Condition {
+pub fn fact(given condition: Bool) -> Condition {
   EagerCondition(condition:)
 }
 
-/// Sets a consequence to run if a previous condition evaludated to true.
+/// Consequence to run if a previous condition evaluates to true.
 ///
 pub fn run(
   on condition: Condition,
@@ -78,9 +78,9 @@ pub fn run(
   Branch(condition:, consequence: LazyConsequence(consequence_fun))
 }
 
-/// Sets a literal consequence to return if a previous condition evaludated to
+/// Literal consequence to yield if a previous condition evaluates to
 /// true.
 ///
-pub fn return(on condition: Condition, consequence consequence: a) -> Branch(a) {
+pub fn yield(on condition: Condition, consequence consequence: a) -> Branch(a) {
   Branch(condition:, consequence: EagerConsequence(consequence))
 }

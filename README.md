@@ -1,4 +1,4 @@
-# Gond 🔠 · `cond` for Gleam
+# Gond 🚡 — `cond`-like multi-branch conditionals for Gleam
 
 [![Package <a href="https://github.com/inoas/gleam-gond/releases"><img src="https://img.shields.io/github/release/inoas/gleam-gond" alt="GitHub release"></a> Version](https://img.shields.io/hexpm/v/gond)](https://hex.pm/packages/gond)
 [![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)](https://www.erlang.org/)
@@ -12,7 +12,8 @@
 
 <p align="center">
   <i>
-    Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift</a> ride, where you can hop off at any station.
+    Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift 🚠</a> ride,
+    where you can hop off at any station.
   </i>
 </p>
 
@@ -21,7 +22,7 @@
 ## Installation
 
 ```sh
-gleam add gond@1
+gleam add gond@2
 ```
 
 ## Examples
@@ -31,16 +32,16 @@ import gleam/int
 import gleam/io
 import gleam/string
 import gond.{
-  cond as cond, return as return, run as run, when as when, where as where,
+  cond as cond, fact as fact, run as run, when as when, yield as yield,
 }
 
 pub fn example() {
   cond(
     branches: [
       when(fn() { int.random(3) == 1 }) |> run(fn() { "Heads!" }),
-      where(int.random(3) == 2) |> run(fn() { "Tails!" }),
-      when(fn() { True }) |> return("This always occurs!"),
-      where(False) |> return("This is never the fact!"),
+      fact(int.random(3) == 2) |> run(fn() { "Tails!" }),
+      when(fn() { True }) |> yield("This always occurs!"),
+      fact(False) |> yield("This is never the fact!"),
     ],
     default: fn() { "Lost the coin?" },
   )
@@ -65,6 +66,7 @@ gleam run   # Run the project
 gleam test  # Run the tests
 ```
 
-## Inspiration
+## Inspirations
 
-Elixir's [`cond` macro](https://hexdocs.pm/elixir/case-cond-and-if.html#cond).
+- Clojure's [`cond` macro](https://clojuredocs.org/clojure.core/cond).
+- Elixir's [`cond` macro](https://hexdocs.pm/elixir/case-cond-and-if.html#cond).
