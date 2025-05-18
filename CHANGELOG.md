@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [2.0.1] - 2025-05-18
 
-- Update description for improved discoverability
+- Update description for improved discoverability.
 
 ## [2.0.0] - 2025-03-07
 
