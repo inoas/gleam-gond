@@ -1,6 +1,6 @@
 name = "gond"
 version = "2.0.0"
-description = "🚡 cond-like multi-branch conditionals for Gleam 🚠"
+description = "🚡 multi-branch conditional expression similar to if - else if - else or cond for Gleam 🚠 (elseif, elif)"
 licences = ["MPL-2.0"]
 repository = { type = "github", user = "inoas", repo = "gleam-gond" }
 # links = [{ title = "Website", href = "" }]
