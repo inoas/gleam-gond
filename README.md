@@ -71,6 +71,6 @@ gleam test  # Run the tests
 - Clojure's [`cond` macro](https://clojuredocs.org/clojure.core/cond).
 - Elixir's [`cond` macro](https://hexdocs.pm/elixir/case-cond-and-if.html#cond).
 
-# Tags
+## Tags
 
 - `elseif`, `elif`, `if statement`
