@@ -1,4 +1,6 @@
-# Gond 🚡 — multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam
+# Gond 🚡
+
+## Multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam
 
 [![Package <a href="https://github.com/inoas/gleam-gond/releases"><img src="https://img.shields.io/github/release/inoas/gleam-gond" alt="GitHub release"></a> Version](https://img.shields.io/hexpm/v/gond)](https://hex.pm/packages/gond)
 [![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)](https://www.erlang.org/)
