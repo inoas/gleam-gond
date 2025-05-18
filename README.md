@@ -1,4 +1,4 @@
-# Gond 🚡 — multi-branch conditionals similar to `if`-`else if`-`else` or `cond` for Gleam
+# Gond 🚡 — multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam
 
 [![Package <a href="https://github.com/inoas/gleam-gond/releases"><img src="https://img.shields.io/github/release/inoas/gleam-gond" alt="GitHub release"></a> Version](https://img.shields.io/hexpm/v/gond)](https://hex.pm/packages/gond)
 [![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)](https://www.erlang.org/)
@@ -70,3 +70,7 @@ gleam test  # Run the tests
 
 - Clojure's [`cond` macro](https://clojuredocs.org/clojure.core/cond).
 - Elixir's [`cond` macro](https://hexdocs.pm/elixir/case-cond-and-if.html#cond).
+
+# Tags
+
+- `elseif`, `elif`, `if statement`
