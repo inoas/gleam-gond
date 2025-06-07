@@ -71,5 +71,5 @@ gleam test  # Run the tests
 ## Tags
 
 - `elseif`
-- `elif`
+- `elsif`
 - `if statement`
