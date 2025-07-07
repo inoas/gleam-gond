@@ -26,8 +26,6 @@ gleam add gond@2
 
 ```gleam
 import gleam/int
-import gleam/io
-import gleam/string
 import gond.{cond, fact, run, when, yield}
 
 pub fn example() {
