@@ -28,7 +28,7 @@ gleam add gond@2
 import gleam/int
 import gond.{cond, fact, run, when, yield}
 
-pub fn example() {
+fn example() {
   cond(
     branches: [
       when(fn() { int.random(3) == 1 }) |> run(fn() { "Heads!" }),
