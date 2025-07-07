@@ -1,9 +1,5 @@
 import gleam/int
-import gleam/io
-import gleam/string
-import gond.{
-  cond as cond, fact as fact, run as run, when as when, yield as yield,
-}
+import gond.{cond, fact, run, when, yield}
 
 pub fn example() {
   cond(
@@ -18,5 +14,5 @@ pub fn example() {
 }
 
 pub fn main() {
-  example() |> string.inspect |> io.println
+  echo example()
 }
