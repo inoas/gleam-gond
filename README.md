@@ -45,13 +45,15 @@ pub fn example() {
 }
 
 pub fn main() {
-  example() |> string.inspect |> io.println
+  echo example()
 }
-
 ```
 
+### Run usage examples
+
 ```shell
-gleam run --module gond/internal/usage_examples
+git clone https://github.com/inoas/gleam-gond.git
+bin/run-examples
 ```
 
 Further documentation can be found at <https://hexdocs.pm/gond>.
