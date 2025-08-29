@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  Multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam.
+  Multi-branch conditional expression similar to _if/else-if/else_ or _cond_ for Gleam.
 
   <i>
     Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift </a> ride,
@@ -80,6 +80,7 @@ gleam test  # Run the tests
 
 ## Tags
 
+- `if`
 - `elseif`
 - `elsif`
 - `if statement`
