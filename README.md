@@ -77,7 +77,9 @@ gleam test  # Run the tests
 
 ## Tags
 
+- `cond`
 - `if`
+- `else`
 - `if/else`
 - `if/else/else if`
 - `if/else/elseif`
