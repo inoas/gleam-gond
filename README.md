@@ -14,6 +14,10 @@ Multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` f
   where you can hop off at any station.
 </i>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/inoas/gleam-gond/main/gleam-gond.jpg" alt="Gleam Gond Logo" style="max-height: 33vh; width: auto; height: auto" width="480" height="480"/>
+</p>
+
 <br>
 
 ## Installation
