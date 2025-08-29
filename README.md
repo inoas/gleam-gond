@@ -78,6 +78,10 @@ gleam test  # Run the tests
 ## Tags
 
 - `if`
+- `if/else`
+- `if/else/else if`
+- `if/else/elseif`
+- `else if`
 - `elseif`
 - `elsif`
 - `if statement`
