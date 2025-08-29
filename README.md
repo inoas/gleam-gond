@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/inoas/gleam-given/main/given-logo.svg" alt="Gleam Given Logo" style="max-height: 33vh; width: auto; height: auto" width="480" height="480"/>
+  <img src="https://raw.githubusercontent.com/inoas/gleam-gond/main/gond-logo.svg" alt="Gleam Gond Logo" style="max-height: 33vh; width: auto; height: auto" width="480" height="480"/>
 </p>
 
 <br>
