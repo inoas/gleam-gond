@@ -18,7 +18,7 @@
 
 <p align="center">
   Multi-branch conditional expression similar to <i>if/else-if/else</i> or <i>cond</i> for Gleam.
-
+  <br/>
   <i>
     Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift </a> ride,
     where you can hop off at any station.
