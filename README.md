@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  Multi-branch conditional expression similar to _if/else-if/else_ or _cond_ for Gleam.
+  Multi-branch conditional expression similar to <i>if/else-if/else</i> or <i>cond</i> for Gleam.
 
   <i>
     Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift </a> ride,
