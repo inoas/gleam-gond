@@ -25,9 +25,6 @@
   </i>
 </p>
 
-<br>
-<br>
-
 ## Installation
 
 ```sh
