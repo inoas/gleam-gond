@@ -1,4 +1,4 @@
-# 🚡 Gond 🚠
+# Gond 🚡🚠 for Gleam
 
 [![Package <a href="https://github.com/inoas/gleam-gond/releases"><img src="https://img.shields.io/github/release/inoas/gleam-gond" alt="GitHub release"></a> Version](https://img.shields.io/hexpm/v/gond)](https://hex.pm/packages/gond)
 [![Erlang-compatible](https://img.shields.io/badge/target-erlang-b83998)](https://www.erlang.org/)
@@ -7,17 +7,25 @@
 [![Discord](https://img.shields.io/discord/768594524158427167?label=discord%20chat&amp;color=5865F2)](https://discord.gg/Fm8Pwmy)
 [![CI Test](https://github.com/inoas/gleam-gond/actions/workflows/test.yml/badge.svg?branch=main&amp;event=push)](https://github.com/inoas/gleam-gond/actions/workflows/test.yml)
 
-Multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam.
-
-<i>
-  Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift </a> ride,
-  where you can hop off at any station.
-</i>
+<br>
+<br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/inoas/gleam-gond/main/gleam-gond.jpg" alt="Gleam Gond Logo" style="max-height: 33vh; width: auto; height: auto" width="480" height="480"/>
+  <img src="https://raw.githubusercontent.com/inoas/gleam-given/main/given-logo.svg" alt="Gleam Given Logo" style="max-height: 33vh; width: auto; height: auto" width="480" height="480"/>
 </p>
 
+<br>
+
+<p align="center">
+  Multi-branch conditional expression similar to `if`-`else if`-`else` or `cond` for Gleam.
+
+  <i>
+    Think of a <a href="https://en.wikipedia.org/wiki/Gondola_lift">gondola lift </a> ride,
+    where you can hop off at any station.
+  </i>
+</p>
+
+<br>
 <br>
 
 ## Installation
