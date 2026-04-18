@@ -6,6 +6,12 @@ repository = { type = "github", user = "inoas", repo = "gleam-gond" }
 
 gleam = ">= 1.15.4"
 
+[documentation]
+pages = [
+  { title = "CHANGELOG", path = "changelog.html", source = "CHANGELOG.md" },
+  { title = "LICENSE", path = "license.html", source = "LICENSE" },
+]
+
 [dependencies]
 gleam_stdlib = ">= 1.0.0 and < 2.0.0"
 
